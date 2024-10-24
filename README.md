@@ -25,9 +25,9 @@ repo and examine the changes made.
 A simple error class and options interface that seems to get copied from
 project to project.
 
-## Example
+## Example - Using `AbortError`
 
-```TypeScript
+```JavaScript
 import { AbortError } from 'abort-error'
 
 // a promise that will be settled later
@@ -37,6 +37,18 @@ const signal = AbortSignal.timeout(1000)
 signal.addEventListener('abort', () => {
   deferred.reject(new AbortError())
 })
+```
+
+## Example - Using `AbortOptions`
+
+```TypeScript
+import type { AbortOptions } from 'abort-error'
+
+async function myFunction (options?: AbortOptions) {
+  return fetch('https://example.com', {
+    signal: options?.signal
+  })
+}
 ```
 
 # Install
