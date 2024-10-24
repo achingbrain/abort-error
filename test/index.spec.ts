@@ -10,4 +10,15 @@ describe('abort-error', () => {
     const err = new AbortError()
     expect(err).to.have.property('name', 'AbortError')
   })
+
+  it('should have a default message', async () => {
+    const err = new AbortError()
+    expect(err).to.have.property('message', 'The operation was aborted')
+  })
+
+  it('should have a custom message', async () => {
+    const message = 'Oh no!'
+    const err = new AbortError(message)
+    expect(err).to.have.property('message', message)
+  })
 })

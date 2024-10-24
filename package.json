@@ -129,7 +129,7 @@
     "test:node": "aegir test -t node --cov",
     "test:chrome": "aegir test -t browser --cov",
     "test:firefox": "aegir test -t browser -- --browser firefox",
-    "test:electron-main": "aegir test -f dist/test/node.js -t electron-main",
+    "test:electron-main": "aegir test -t electron-main",
     "build": "aegir build",
     "release": "aegir release",
     "docs": "aegir docs",

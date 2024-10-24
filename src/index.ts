@@ -38,4 +38,8 @@ export interface AbortOptions {
 export class AbortError extends Error {
   static name = 'AbortError'
   name = 'AbortError'
+
+  constructor (message: string = 'The operation was aborted', ...rest: any[]) {
+    super(message, ...rest)
+  }
 }
