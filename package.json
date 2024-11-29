@@ -137,6 +137,6 @@
     "doc-check": "aegir doc-check"
   },
   "devDependencies": {
-    "aegir": "^44.1.4"
+    "aegir": "^45.0.7"
   }
 }
