@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/achingbrain/abort-error/compare/v1.0.0...v1.0.1) (2025-03-19)
+
+### Bug Fixes
+
+* update project ([#5](https://github.com/achingbrain/abort-error/issues/5)) ([78c267f](https://github.com/achingbrain/abort-error/commit/78c267f64a8d75dd2e5958f4d419c12ff28ed8a4))
+
 ## 1.0.0 (2024-10-24)
 
 ### Features
