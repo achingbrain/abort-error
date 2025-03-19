@@ -134,9 +134,10 @@
     "release": "aegir release",
     "docs": "aegir docs",
     "dep-check": "aegir dep-check",
-    "doc-check": "aegir doc-check"
+    "doc-check": "aegir doc-check",
+    "spell-check": "aegir spell-check"
   },
   "devDependencies": {
-    "aegir": "^44.1.4"
+    "aegir": "^45.1.4"
   }
 }
