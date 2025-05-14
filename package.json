@@ -138,6 +138,6 @@
     "spell-check": "aegir spell-check"
   },
   "devDependencies": {
-    "aegir": "^45.1.4"
+    "aegir": "^46.0.2"
   }
 }
