@@ -1,3 +1,9 @@
+## [1.0.2](https://github.com/achingbrain/abort-error/compare/v1.0.1...v1.0.2) (2026-04-10)
+
+### Dependencies
+
+* bump aegir from 45.1.4 to 47.0.26 ([#25](https://github.com/achingbrain/abort-error/issues/25)) ([de87504](https://github.com/achingbrain/abort-error/commit/de87504702dd596e9d196663d7cf94dfeb1ec545))
+
 ## [1.0.1](https://github.com/achingbrain/abort-error/compare/v1.0.0...v1.0.1) (2025-03-19)
 
 ### Bug Fixes
