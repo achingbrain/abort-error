@@ -4,7 +4,7 @@
  * A simple error class and options interface that seems to get copied from
  * project to project.
  *
- * @example Using `AbortError`
+ * @example Using AbortError
  *
  * ```JavaScript
  * import { AbortError } from 'abort-error'
@@ -18,7 +18,7 @@
  * })
  * ```
  *
- * @example Using `AbortOptions`
+ * @example Using AbortOptions
  *
  * ```TypeScript
  * import type { AbortOptions } from 'abort-error'
