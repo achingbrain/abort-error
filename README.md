@@ -25,7 +25,7 @@ repo and examine the changes made.
 A simple error class and options interface that seems to get copied from
 project to project.
 
-## Example - Using `AbortError`
+## Example - Using AbortError
 
 ```JavaScript
 import { AbortError } from 'abort-error'
@@ -39,7 +39,7 @@ signal.addEventListener('abort', () => {
 })
 ```
 
-## Example - Using `AbortOptions`
+## Example - Using AbortOptions
 
 ```TypeScript
 import type { AbortOptions } from 'abort-error'
