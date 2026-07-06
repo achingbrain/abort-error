@@ -139,6 +139,6 @@
     "spell-check": "aegir spell-check"
   },
   "devDependencies": {
-    "aegir": "^47.0.26"
+    "aegir": "^48.1.2"
   }
 }
